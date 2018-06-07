@@ -53,3 +53,10 @@ backend site-backend
 	server lamp4 localhost:8084 check
 	server lamp5 localhost:8085 check
 	server lamp6 localhost:8086 check
+#ejecutar la ip en el navegador
+
+http://localhost:9090/calculadora/suma?numA=3&numB=2
+http://localhost:9090/calculadora/resta?numA=3&numB=2
+http://localhost:9090/calculadora/mult?numA=3&numB=2
+http://localhost:9090/calculadora/div?numA=3&numB=2
+
