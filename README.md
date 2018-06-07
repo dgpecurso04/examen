@@ -53,6 +53,9 @@ backend site-backend
 	server lamp4 localhost:8084 check
 	server lamp5 localhost:8085 check
 	server lamp6 localhost:8086 check
+#reiniciar el balanceador
+sudo service haproxy stop
+sudo service haproxy start
 #ejecutar la ip en el navegador
 
 http://localhost:9090/calculadora/suma?numA=3&numB=2
